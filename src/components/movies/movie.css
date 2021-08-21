@@ -1,0 +1,65 @@
+h1 {
+  background-color: #5d72b7;
+  font-size: 50px;
+  padding: 30px;
+  width: 100%;
+}
+
+.movies-wrapper,
+.movie-details-wrapper {
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 10px;
+  height: auto;
+  width: 73%;
+  margin: auto;
+  overflow-x: auto;
+  -webkit-box-shadow: 10px 10px 31px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 31px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 31px -15px rgba(0, 0, 0, 0.75);
+
+  /* Hide scrollbar for IE, Edge and Firefox - keeps functionality */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera - keep functionality*/
+.movies-wrapper::-webkit-scrollbar,
+.movie-details-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.movie-title-li:hover {
+  background-color: rgba(93, 114, 183, 0.5);
+  border-radius: 15px;
+}
+
+.movie-details p {
+  text-align: left;
+  font-size: 22px;
+}
+
+img.movie-img {
+  width: 75%;
+  border-radius: 5px;
+  margin: auto;
+  align-self: center;
+}
+
+.bi.bi-arrow-left-circle {
+  font-size: 25px;
+  text-align: left;
+}
+
+.bi.bi-arrow-left-circle:active {
+  left: -2px;
+}

@@ -1,0 +1,10 @@
+input{
+  width: 60%;
+  font-size: large;
+  border-radius: 15px;
+  outline-color: rgba(93, 114, 183, 0.5);
+}
+
+input:focus{
+  outline:1px solid rgba(93, 114, 183, 0.5);
+}
