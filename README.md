@@ -1,4 +1,4 @@
-# MoviesList
+# Movies List
 
 This application searches movies and provides details on the movie selected by the user.
 

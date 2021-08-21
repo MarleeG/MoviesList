@@ -102,7 +102,7 @@ const Movie = () => {
 
     // initially retrieves all movies to display to the user
     getMovieTitles();
-  }, []);
+  }, [movies.length]);
 
   return (
     <>
